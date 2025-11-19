@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Heart } from "lucide-react";
 import { useState } from "react";
 
+<<<<<<< HEAD
 import photoHoodie from "@/pictures/1c82ae11-c14a-4b3c-adbb-e3d8a588959c (1).jpeg?url";
 import photoLaugh from "@/pictures/9ce3d5f0-6086-4f97-b29a-9468cda29433.jpeg?url";
 import photoBeach from "@/pictures/4a25c1ea-a68b-4e51-a041-2d4ea4c2406f.jpeg?url";
@@ -29,6 +30,22 @@ const photos: PhotoMemory[] = [
 ];
 
 const PhotoCard = ({ photo, index }: { photo: PhotoMemory; index: number }) => {
+=======
+const photos = [
+  { caption: "The night you stole my hoodie", rotation: -3 },
+  { caption: "Your laugh here kills me every time", rotation: 2 },
+  { caption: "Beach day with my favorite person", rotation: -2 },
+  { caption: "When you made me breakfast", rotation: 4 },
+  { caption: "Our cozy movie night", rotation: -4 },
+  { caption: "You dancing in the kitchen", rotation: 3 },
+  { caption: "That sunset we watched together", rotation: -1 },
+  { caption: "Your sleepy morning smile", rotation: 2 },
+  { caption: "Adventure time with you", rotation: -3 },
+  { caption: "Just another perfect day", rotation: 1 },
+];
+
+const PhotoCard = ({ photo, index }: { photo: typeof photos[0]; index: number }) => {
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -43,6 +60,7 @@ const PhotoCard = ({ photo, index }: { photo: PhotoMemory; index: number }) => {
       className="relative bg-white p-3 shadow-soft hover:shadow-glow-romantic transition-shadow duration-300 cursor-pointer"
       style={{ rotate: photo.rotation }}
     >
+<<<<<<< HEAD
       {/* Photo / Placeholder */}
       <div className="aspect-square rounded-sm relative overflow-hidden bg-slate-100">
         {photo.src ? (
@@ -64,6 +82,15 @@ const PhotoCard = ({ photo, index }: { photo: PhotoMemory; index: number }) => {
         )}
         <div className="absolute bottom-2 right-2 text-xs text-white/80 font-script">
           {photo.src ? `Photo ${index + 1}` : "Can't Wait"}
+=======
+      {/* Placeholder photo area */}
+      <div className="aspect-square bg-gradient-to-br from-blush to-lavender rounded-sm relative overflow-hidden">
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Heart className="w-12 h-12 text-white/50" />
+        </div>
+        <div className="absolute bottom-2 right-2 text-xs text-white/60 font-script">
+          Photo {index + 1}
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
         </div>
       </div>
 
@@ -114,7 +141,11 @@ const PhotoGallery = () => {
           transition={{ delay: 0.5 }}
           className="text-center mt-16 text-lg text-muted-foreground font-script"
         >
+<<<<<<< HEAD
           Six of our favorite shots are already here, and the others are saving space for the moments we still dream about.
+=======
+          Replace these placeholders with our actual photos to make this gallery truly ours ♡
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
         </motion.p>
       </div>
     </section>

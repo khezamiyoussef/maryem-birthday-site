@@ -24,17 +24,29 @@ const Surprises = () => {
     {
       icon: Sparkles,
       title: "Surprise #1",
+<<<<<<< HEAD
       revealed: "Our first together next summer is booked, Vienna ya rouhi ✈️",
+=======
+      revealed: "A weekend getaway wherever your heart desires! ✈️",
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
     },
     {
       icon: Music,
       title: "Surprise #2",
+<<<<<<< HEAD
       revealed: "A custom playlist of all the songs that remind me of you tjik maa lcadeaux 🎵",
+=======
+      revealed: "A custom playlist of all the songs that remind me of you 🎵",
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
     },
     {
       icon: Gift,
       title: "Surprise #3",
+<<<<<<< HEAD
       revealed: "1000 kisses hak tselhomli 💋",
+=======
+      revealed: "1000 kisses owed (redeemable anytime, anywhere) 💋",
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
     },
   ];
 

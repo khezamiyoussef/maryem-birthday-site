@@ -8,30 +8,50 @@ const milestones = [
     icon: Heart,
     date: "The Beginning",
     title: "The day we matched",
+<<<<<<< HEAD
     description: "I will never forget the date at the bar. I knew you were special.",
+=======
+    description: "I still remember that first message. I knew you were special.",
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
   },
   {
     icon: Coffee,
     date: "Our First Date",
+<<<<<<< HEAD
     title: "Pasta, pizza and drinks fl fac turned into hours",
+=======
+    title: "Coffee turned into hours",
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
     description: "Time flew by, and I didn't want the day to end.",
   },
   {
     icon: Sparkles,
     date: "First 'I Love You'",
+<<<<<<< HEAD
     title: "29.09.2025  until nkoulhelek fl denya  ",
+=======
+    title: "Three perfect words",
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
     description: "The moment I knew I wanted forever with you.",
   },
   {
     icon: MapPin,
     date: "First Trip Together",
     title: "Adventures with you",
+<<<<<<< HEAD
     description: "Essif ljey hata l the end of time ",
+=======
+    description: "Every journey with you feels like coming home.",
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
   },
   {
     icon: Camera,
     date: "That One Time",
+<<<<<<< HEAD
     title: "When you took my football Shirt",
+=======
+    title: "When you stole my hoodie",
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
     description: "And looked better in it than I ever could.",
   },
 ];

@@ -10,8 +10,11 @@ import LoveLetter from "@/components/birthday/LoveLetter";
 import Surprises from "@/components/birthday/Surprises";
 import MakeAWish from "@/components/birthday/MakeAWish";
 import OurFuture from "@/components/birthday/OurFuture";
+<<<<<<< HEAD
 import MemoriesCarousel from "@/components/birthday/MemoriesCarousel";
 import MaryemNameSection from "@/components/birthday/MaryemNameSection";
+=======
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
 import FinalMessage from "@/components/birthday/FinalMessage";
 
 const Index = () => {
@@ -34,8 +37,11 @@ const Index = () => {
           <Surprises />
           <MakeAWish />
           <OurFuture />
+<<<<<<< HEAD
           <MemoriesCarousel />
           <MaryemNameSection />
+=======
+>>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
           <FinalMessage />
         </div>
       )}
