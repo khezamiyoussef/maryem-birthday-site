@@ -16,7 +16,7 @@ const letterText = [
   "",
   "On this special day, I want you to know: You are extraordinary. You are loved beyond measure. And I promise to spend the rest of my life trying to make you feel as special as you make me feel.",
   "",
-  "Happy Birthday, my beautiful love. Here's to many more adventures, inside jokes, barcha tea, bechir, and stolen moments together.",
+  "Happy Birthday, my beautiful love. Here's to many more adventures, inside jokes, barcha tea, bechir, and stolen moments together w mabannek ki tebki bl farha",
   "",
   "Forever yours,",
   "Youssef",
