@@ -6,12 +6,11 @@ import flowersImage from "@/assets/flowers-decoration.jpg";
 const letterText = [
   "My Dearest Love,",
   "",
-<<<<<<< HEAD
   "Haleyan tawa fi almania w ghodwa iid miledek and for some reason kaed nhes li howa iid miledi zeda, khater kol nhar maak is a gift omri matsawart niichou.",
   "",
   "You came into my life and changed everything, kifeh naaadi nhari, kifeh nkhamem, les objectifs mteei, literally kolchay. Bin nhar w lila walit nhes fi rouhi responsable aala zouz aabed w nkhamem aala zouz aabed tellement you mean to me w a life alongside you means to me. Maak, I learned to be myself again, w Youssef li yahki maak kolyoum hedheka howa w bch yokeed dima akeka w somehow it's enough for you, saha leya.",
   "",
-  "Taalamt zeda li love isn't just the big romantic gestures – it's in the quiet moments. It's in the way you talk to me exactly how I like. It's in your sleepy 'good morning' texts. It's in ki toghzerli aala jnab wakteli nkolek haja tdhawbek w tetbassem taht hes mess wena nra fi chtar wejhek w naatik hyeti bch nra wejhek lkol waktha.",
+  "Taalamt zeda li love isn't just the big romantic gestures – it's in the quiet moments. It's in the way you talk to me exactly how I like. It's in your sleepy 'good morning' texts. It's in ki toghzerli aala jnab wakteli nkolek haja tdhawbek w tetbassem taht hes mess wena nra fi chtar wejhek w naati hyeti bch nra wejhek lkol waktha.",
   "",
   "Nkamel bl anglais thessou yaaber akther hahah. Thank you for choosing me, every single day. Thank you for your patience when I'm difficult, your understanding when I'm fked up, and your unwavering belief in us.",
   "",
@@ -21,24 +20,7 @@ const letterText = [
   "",
   "Forever yours,",
   "Youssef",
-=======
-  "As I sit here writing this, my heart is so full it feels like it might burst. Today is your day, but somehow it feels like mine too – because every day with you is a gift I never knew I needed.",
-  "",
-  "You came into my life and changed everything. You showed me what it means to be truly seen, truly heard, and truly loved. With you, I don't have to pretend or hold back. I can just be... me. And somehow, miraculously, that's enough for you.",
-  "",
-  "I love the way you make me laugh until my stomach hurts. I love how you always know when I need a hug, even before I do. I love your random 3am thoughts, your terrible jokes, and the way you sing off-key but with so much confidence.",
-  "",
-  "You've taught me that love isn't just the big romantic gestures – it's in the quiet moments. It's in the way you make my coffee exactly how I like it. It's in your sleepy 'good morning' texts. It's in how you hold my hand when we're just sitting together, doing nothing at all.",
-  "",
-  "Thank you for choosing me, every single day. Thank you for your patience when I'm difficult, your understanding when I'm lost, and your unwavering belief in us.",
-  "",
-  "On this special day, I want you to know: You are extraordinary. You are loved beyond measure. And I promise to spend the rest of my life trying to make you feel as special as you make me feel.",
-  "",
-  "Happy Birthday, my beautiful love. Here's to many more adventures, inside jokes, lazy Sundays, and stolen moments together.",
-  "",
-  "Forever yours,",
-  "Your [Name]",
->>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
+
 ];
 
 const LoveLetter = () => {
@@ -105,11 +87,8 @@ const LoveLetter = () => {
           >
             {[...Array(5)].map((_, i) => (
               <span key={i} className="text-rose-gold text-2xl">
-<<<<<<< HEAD
                 {"\u2665"}
-=======
                 ♡
->>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
               </span>
             ))}
           </motion.div>
