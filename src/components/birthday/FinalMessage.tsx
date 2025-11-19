@@ -87,11 +87,7 @@ const FinalMessage = () => {
           >
             Forever yours,
             <br />
-<<<<<<< HEAD
             <span className="text-4xl">Youssef</span>
-=======
-            <span className="text-4xl">Your [Name]</span>
->>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
           </motion.p>
         </motion.div>
 
