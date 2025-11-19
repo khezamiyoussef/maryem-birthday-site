@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-<<<<<<< HEAD
 import {
   MapPin,
   HandHeart,
@@ -10,6 +9,12 @@ import {
   Shield,
   PhoneCall,
   Heart,
+  Smile,
+  Coffee,
+  Music,
+  Moon,
+  Star,
+  Sun,
 } from "lucide-react";
 
 const reasons = [
@@ -44,43 +49,8 @@ const reasons = [
   {
     icon: Heart,
     reason: "Every day you give me love, time, and grace, and it heals parts of me I never knew how to fix.",
-=======
-import { Coffee, Moon, Music, Smile, Heart, Star, Sparkles, Sun } from "lucide-react";
-
-const reasons = [
-  {
-    icon: Smile,
-    reason: "The way you crinkle your nose when you laugh",
   },
-  {
-    icon: Coffee,
-    reason: "How you always steal the blanket but I secretly love it",
-  },
-  {
-    icon: Music,
-    reason: "Your voice notes that I listen to 100 times",
-  },
-  {
-    icon: Moon,
-    reason: "Late night conversations that turn into early mornings",
-  },
-  {
-    icon: Heart,
-    reason: "How you make every ordinary moment extraordinary",
-  },
-  {
-    icon: Star,
-    reason: "The way you believe in me even when I don't",
-  },
-  {
-    icon: Sparkles,
-    reason: "Your spontaneous dance moves in the kitchen",
-  },
-  {
-    icon: Sun,
-    reason: "How you're the first thing I want to see every morning",
->>>>>>> 633eb8a6875d926cc5931481e831122269e9cc96
-  },
+  
 ];
 
 const FlipCard = ({ item, index }: { item: typeof reasons[0]; index: number }) => {
