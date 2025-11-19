@@ -26,7 +26,7 @@ const HeroSection = () => {
           transition={{ duration: 1, ease: "easeOut" }}
           className="text-6xl md:text-8xl font-script text-foreground mb-6"
         >
-          Happy Birthday, My Beautiful Love
+          Happy Birthday, My Beautiful Love w saha ldouche aal faza
         </motion.h1>
 
         <motion.p
