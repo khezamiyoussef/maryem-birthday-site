@@ -13,7 +13,7 @@ const milestones = [
   {
     icon: Coffee,
     date: "Our First Date",
-    title: "Pasta, pizza and drinks fl fac turned into hours",
+    title: "Pasta, pizza and drinks fl lac turned into hours",
     description: "Time flew by, and I didn't want the day to end.",
   },
   {
